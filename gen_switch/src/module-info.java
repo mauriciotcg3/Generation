@@ -1,0 +1,2 @@
+module gen_switch {
+}
