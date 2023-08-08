@@ -1,0 +1,2 @@
+module gen_ProjetoBanco {
+}
