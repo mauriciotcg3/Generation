@@ -1,9 +1,8 @@
 package gen_ProjetoBanco;
 
 import java.util.Scanner;
-
 import gen_ProjetoBanco.util.Cores;
-
+import gen_ProjetoBanco.model.*;
 
 public class Main {
 
@@ -12,14 +11,15 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int op;
 		
+	
+		
 		while (true) {
 
-			System.out.println(Cores.TEXT_CYAN + Cores.ANSI_BLACK_BACKGROUND
-					+"=====================================================");
+			System.out.println(Cores.TEXT_PURPLE + "=====================================================" + Cores.TEXT_RESET);
 			System.out.println("                                                     ");
 			System.out.println("                CyberBank Security");
 			System.out.println("                                                     ");
-			System.out.println("=====================================================");
+			System.out.println(Cores.TEXT_PURPLE + "=====================================================" + Cores.TEXT_RESET);
 			System.out.println("                                                     ");
 			System.out.println("            1 - Criar Conta");
 			System.out.println("            2 - Listar todas as Contas");
@@ -31,8 +31,8 @@ public class Main {
 			System.out.println("            8 - Transferir Valores");
 			System.out.println("            9 - Sair");
 			System.out.println("                                                     ");
-			System.out.println("=====================================================");
-			System.out.println("Entre com a opção desejada: " + Cores.TEXT_RESET);
+			System.out.println(Cores.TEXT_PURPLE + "=====================================================" + Cores.TEXT_RESET);
+			System.out.println("Entre com a opção desejada: ");
 			System.out.println("                                                     ");
 
 			op = sc.nextInt();
@@ -46,12 +46,12 @@ public class Main {
 			switch (op) {
 				case 1:
 					System.out.println("\n\nCriar Conta\n\n");
-
+					
 					break;
 					
 				case 2:
 					System.out.println("\n\nListar todas as Contas\n\n");
-
+					
 					break;
 					
 				case 3:
