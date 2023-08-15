@@ -105,7 +105,7 @@ public abstract class Conta implements ContaRepository{
 		System.out.println("Titular: " + this.titular);
 		System.out.println("Numero da Conta: " + this.numero);
 		System.out.println("Agência: " + this.agencia);
-		System.out.println("Tipo da Conta: " + tipo);
+		System.out.println("Tipo da Conta: " + tipoConta);
 		System.out.println("Saldo: " + this.saldo);
 		
 	}
